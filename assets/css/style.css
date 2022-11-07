@@ -24,7 +24,7 @@
 
 body {
 
-    font-family: var(--fonte-padrao);
+    font-family: Arial, Verdana, Helvetica, sans-serif;
     font-size: 1.1em;
     background-color: var(--bg-color);
 }
@@ -41,7 +41,7 @@ header {
 }
 
 header > h1{
-    font-family: var(--fonte-destaque);
+    font-family: 'Bebas Neue', cursive;
     font-size: 3em;
     margin-bottom: 20px;
     font-weight: normal;
@@ -81,7 +81,7 @@ nav > ul > li:hover {
 }
 
 main h1, main h2 {
-    font-family: var(--fonte-android);
+    font-family: 'Android', cursive;
     color: var(--tx-color);
     font-weight: normal;
 }
