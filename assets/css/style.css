@@ -35,24 +35,25 @@ a.externo::after {
 
 header {
     background-image: linear-gradient(to bottom, var(--sc-color), var(--tx-color), var(--dk-color));
-    height: 170px;
+    height: 220px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 header > h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-weight: normal;
 }
 
 header > p {
     font-size: 1.2em;
     max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
-    padding: 0 10px 0 10px;
-
+    padding-bottom: 40px;
 }
 
 header > h1, header > p {
